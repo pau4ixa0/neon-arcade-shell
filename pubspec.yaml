@@ -1,0 +1,45 @@
+name: dynamic_shell_app
+description: "Cross-platform iGaming WebView Shell with Remote Config, Cloaking Whitepage, AppsFlyer & FCM"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Local Storage & State
+  shared_preferences: ^2.2.2
+
+  # Firebase Core, Remote Config & Push Notifications (FCM)
+  firebase_core: ^2.27.0
+  firebase_remote_config: ^4.3.8
+  firebase_messaging: ^14.7.19
+  flutter_local_notifications: ^17.0.0
+
+  # Advanced WebView with Full Cookie, JS, Hardware Acceleration & Geolocation
+  flutter_inappwebview: ^6.0.0
+
+  # Attribution & Analytics
+  appsflyer_sdk: ^6.13.0
+
+  # Security & Device Validation (Anti-bot / Anti-emulator / Screenshot protection)
+  device_info_plus: ^9.1.2
+  flutter_windowmanager: ^0.2.0
+  permission_handler: ^11.3.1
+
+  # Network & Utilities
+  connectivity_plus: ^5.0.2
+  url_launcher: ^6.2.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/

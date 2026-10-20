@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "123456789012",
-    "project_id": "neon-arcade-shell",
-    "storage_bucket": "neon-arcade-shell.appspot.com"
+    "project_number": "834941085977",
+    "project_id": "betwinner1-4463b",
+    "storage_bucket": "betwinner1-4463b.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123456789012:android:abcdef0123456789",
+        "mobilesdk_app_id": "1:834941085977:android:4d8caf975dd416a5963d88",
         "android_client_info": {
           "package_name": "com.betwinner.arcade.dynamic_shell_app"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyFakeKeyForBuildValidationOnly12345"
+          "current_key": "AIzaSyAP2VpWPyVx5_jkC8dZpNCaGQJX0N_nVVY"
         }
       ],
       "services": {
